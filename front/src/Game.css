@@ -1,0 +1,88 @@
+
+.keyboard {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+  }
+  
+
+  .key {
+    background-color: #535F75;
+    padding: 20px;
+    font-size: 25px;
+    font-weight: bold;
+    border: 1px solid #535F75;
+    border-radius: 1px;
+    margin:0;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+  }
+  
+
+  .key.green {
+    background-color: #4caf50;
+    color: #333;
+
+  }
+  
+
+  .key.gray {
+    background-color: #D5736A;
+    color: #535F75;
+
+  }
+  .word-display{
+    margin-left:auto;
+    margin-right:auto;
+    text-align: center;
+    font-size: 72px;
+    font-weight: bold;
+    padding:10px;
+    border:1px solid #2B303A;
+    width: 50%;
+    color:lightblue;
+    background-color: #383E4A;
+    margin-bottom:30px;
+  }
+  .guessContainer{
+    display:flex;
+    justify-content: center;
+    margin:30px;
+  }
+  .guessContainer>input{
+    width: 30%;
+    background-color: #A9C0EC;
+    color:white;
+    font-size: 1em;
+  }
+  .guessContainer>button{
+    border-radius: 1px;
+    border:none;
+  }
+  .hangmanVis{
+    margin-left:auto;
+    margin-right:auto;
+    width: 30%;
+    display:block;
+    border:10px solid #383E4A; 
+  }
+  .guessesLeftP{
+    text-align: center;
+  }
+  .popup{
+    position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    padding:50px;
+    background-color: #17191f;
+    color:lightblue;
+  }
+ 
